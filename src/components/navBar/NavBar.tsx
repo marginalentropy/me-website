@@ -14,7 +14,6 @@ export const NavBar = () => {
 
   return (
     <header>
-      {/* desktop */}
       <nav
         className="navbar bg-base-100 py-0 sm:ring-1 sm:ring-neutral"
         aria-label="Global"
