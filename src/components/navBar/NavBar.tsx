@@ -15,7 +15,7 @@ export const NavBar = () => {
   return (
     <header>
       <nav
-        className="navbar bg-base-100 py-0 sm:ring-1 sm:ring-neutral"
+        className="navbar bg-base-100 py-0 max-w-7xl mx-auto"
         aria-label="Global"
       >
         <div className="navbar-start">
@@ -49,7 +49,7 @@ export const NavBar = () => {
         </div>
 
         <div className="navbar-end">
-          <a className="btn">Donate</a>
+          <a className="btn btn-secondary">Donate</a>
         </div>
       </nav>
 

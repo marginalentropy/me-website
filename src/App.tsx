@@ -1,11 +1,7 @@
-// import { useState } from "react";
-// import "./App.css";
-import { Page } from "./components/page";
+import { LandingPage } from "./pages/landingPage/LandingPage";
 
 function App() {
-  return (
-    <Page />
-  );
+  return <LandingPage />;
 }
 
 export default App;
