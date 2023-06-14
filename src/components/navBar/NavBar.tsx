@@ -15,25 +15,21 @@ export const NavBar = () => {
   return (
     <header>
       <nav
-        className="navbar bg-base-100 py-0 max-w-7xl mx-auto"
+        className="navbar mx-auto max-w-7xl bg-base-100 py-0"
         aria-label="Global"
       >
         <div className="navbar-start">
           <label
             tabIndex={0}
-            className="btn btn-ghost md:hidden"
+            className="btn-ghost btn md:hidden"
             onClick={() => setMobileMenuOpen(true)}
           >
             <Bars3Icon className="h-8 w-8" />
           </label>
 
-          <a href="#" className="btn btn-ghost normal-case">
+          <a href="#" className="btn-ghost btn normal-case">
             <span className="sr-only">Your Company</span>
-            <img
-              className="h-12 w-auto"
-              src="/logo512.png"
-              alt=""
-            />
+            <img className="h-12 w-auto" src="/logo512.png" alt="" />
           </a>
         </div>
 
@@ -49,7 +45,7 @@ export const NavBar = () => {
         </div>
 
         <div className="navbar-end">
-          <a className="btn btn-secondary">Donate</a>
+          <a className="btn-secondary btn">Donate</a>
         </div>
       </nav>
 
@@ -83,7 +79,7 @@ export const NavBar = () => {
             </li>
           </ul>
 
-          <ul className="menu menu-lg rounded-box">
+          <ul className="menu rounded-box menu-lg">
             <li>
               <a>Classes</a>
             </li>
@@ -91,7 +87,7 @@ export const NavBar = () => {
               <a>Get Involved</a>
             </li>
             <li></li>
-            <a className="btn btn-block mt-4">Donate</a>
+            <a className="btn-block btn mt-4">Donate</a>
           </ul>
         </Dialog.Panel>
       </Dialog>

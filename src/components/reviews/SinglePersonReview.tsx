@@ -9,7 +9,7 @@ const review = {
 
 export const SinglePersonReview = () => {
   return (
-    <div className="p-8 flex items-center bg-base-200 ">
+    <div className="flex items-center bg-base-200 p-8 ">
       {/* <a href="https://www.linkedin.com" className="mx-auto"> */}
       <img
         src={review.avatarSrc}

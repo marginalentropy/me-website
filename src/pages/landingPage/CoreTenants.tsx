@@ -1,7 +1,7 @@
 export const CoreTenants = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 bg-base-100 p-4 pt-16 max-w-7xl mx-auto">
-      <div className="card max-w-md md:max-w-xs mx-auto">
+    <div className="mx-auto grid max-w-7xl grid-cols-1 gap-4 bg-base-100 p-4 pt-16 md:grid-cols-3">
+      <div className="card mx-auto max-w-md md:max-w-xs">
         <div className="card-body items-center text-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -9,7 +9,7 @@ export const CoreTenants = () => {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-6 h-6"
+            className="h-6 w-6"
           >
             <path
               strokeLinecap="round"
@@ -26,7 +26,7 @@ export const CoreTenants = () => {
           </p>
         </div>
       </div>
-      <div className="card max-w-md md:max-w-xs mx-auto">
+      <div className="card mx-auto max-w-md md:max-w-xs">
         <div className="card-body items-center text-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ export const CoreTenants = () => {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-6 h-6"
+            className="h-6 w-6"
           >
             <path
               strokeLinecap="round"
@@ -51,7 +51,7 @@ export const CoreTenants = () => {
           </p>
         </div>
       </div>
-      <div className="card max-w-md md:max-w-xs mx-auto">
+      <div className="card mx-auto max-w-md md:max-w-xs">
         <div className="card-body items-center text-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ export const CoreTenants = () => {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-6 h-6"
+            className="h-6 w-6"
           >
             <path
               strokeLinecap="round"
