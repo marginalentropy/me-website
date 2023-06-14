@@ -9,24 +9,26 @@ const review = {
 
 export const SinglePersonReview = () => {
   return (
-    <div className="flex items-center bg-base-200 p-8 ">
-      {/* <a href="https://www.linkedin.com" className="mx-auto"> */}
-      <img
-        src={review.avatarSrc}
-        alt={`${review.author}.`}
-        className="h-14 w-14 rounded-full"
-      />
-      {/* </a> */}
-      <div className="flex-col px-4">
-        <div className="">
-          <h4 className="text-sm font-bold text-base-content">
-            {review.author}
-          </h4>
-        </div>
-        <div
-          className="text-base italic text-base-content "
-          dangerouslySetInnerHTML={{ __html: review.content }}
+    <div className=" flex bg-base-200 p-8">
+      <div className="mx-auto flex max-w-7xl items-center">
+        {/* <a href="https://www.linkedin.com" className="mx-auto"> */}
+        <img
+          src={review.avatarSrc}
+          alt={`${review.author}.`}
+          className="h-14 w-14 rounded-full"
         />
+        {/* </a> */}
+        <div className="flex-col px-4">
+          <div className="">
+            <h4 className="text-sm font-bold text-base-content">
+              {review.author}
+            </h4>
+          </div>
+          <div
+            className="text-base italic text-base-content "
+            dangerouslySetInnerHTML={{ __html: review.content }}
+          />
+        </div>
       </div>
     </div>
   );
