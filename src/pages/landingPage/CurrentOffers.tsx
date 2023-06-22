@@ -42,7 +42,7 @@ const posts = [
 
 export const CurrentOffers = () => {
   return (
-    <div className="bg-base-100 py-24 sm:py-32">
+    <div className="bg-base-100 py-4">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-4xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -52,7 +52,7 @@ export const CurrentOffers = () => {
             For kids and teenagers.
           </p>
 
-          <div className="mt-16 space-y-20 lg:mt-20 lg:space-y-20">
+          <div className="mt-8 space-y-12">
             {posts.map((post) => (
               <div className="card lg:card-side">
                 <figure className="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0 ">
