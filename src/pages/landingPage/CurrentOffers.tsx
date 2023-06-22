@@ -42,13 +42,13 @@ const posts = [
 
 export const CurrentOffers = () => {
   return (
-    <div className="bg-base-100 py-4">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:max-w-4xl">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+    <div className="mx-auto flex max-w-2xl lg:max-w-7xl p-10">
+      <div className="">
+        <div className="">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
             Current Programs
           </h2>
-          <p className="mt-2 text-lg leading-8 text-gray-600">
+          <p className="mt-2 text-lg leading-8 ">
             For kids and teenagers.
           </p>
 
@@ -59,7 +59,7 @@ export const CurrentOffers = () => {
                   <img
                     src={post.imageUrl}
                     alt=""
-                    className="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover"
+                    className="absolute inset-0 h-full w-full rounded-2xl object-cover"
                   />
                   <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
                 </figure>
@@ -67,7 +67,7 @@ export const CurrentOffers = () => {
                 <div className="card-body px-0 py-4 lg:py-0 lg:pl-4 ">
                   <h2 className="card-title">
                     {post.title}
-                    <span className="badge badge-lg ml-4">New</span>
+                    <span className="badge badge-lg ml-4 bg-base-200 border-base-300">New</span>
                   </h2>
 
                   <time dateTime={post.datetime} className="text-gray-500">
