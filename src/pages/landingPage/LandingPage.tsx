@@ -3,6 +3,8 @@ import { SinglePersonReview } from "../../components/reviews/SinglePersonReview"
 import { CoreTenants } from "./CoreTenants";
 import { CurrentOffers } from "./CurrentOffers";
 import { Hero } from "./Hero";
+import { SupportUs } from "./SupportUs";
+import { TeamSection } from "./TeamSection";
 
 export const LandingPage = () => {
   return (
@@ -14,6 +16,10 @@ export const LandingPage = () => {
       <CoreTenants />
 
       <CurrentOffers />
+
+      <TeamSection />
+
+      <SupportUs />
     </Layout>
   );
 };
