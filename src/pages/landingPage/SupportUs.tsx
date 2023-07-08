@@ -1,70 +1,38 @@
-import { CheckCircleIcon } from "@heroicons/react/20/solid";
-
 const type = [
   {
-    name: "Donate",
-    id: "tier-basic",
-    href: "#",
-    price: { monthly: "$15", annually: "$12" },
+    name: "Donate Money",
     description:
-      "All proceeds go directly into running and operating our free classes. Donations help ensure there are enough laptops for each student to use for class.",
-    features: [
-      "5 products",
-      "Up to 1,000 subscribers",
-      "Basic analytics",
-      "48-hour support response time",
-    ],
+      "Help us bridge the technology divide for marginalized communities. Your generous contribution will enable us to provide accessible technology, valuable education, and promote empathy within these communities. Together, we can reduce the barriers and create equal opportunities for all. Donate now and make a meaningful impact.",
+      buttonText: "Donate"
   },
   {
     name: "Donate Hardware",
-    id: "tier-essential",
-    href: "#",
-    price: { monthly: "$30", annually: "$24" },
     description:
-      "Directly give away new or old computers and laptops for us to use in class.",
-    features: [
-      "25 products",
-      "Up to 10,000 subscribers",
-      "Advanced analytics",
-      "24-hour support response time",
-      "Marketing automations",
-    ],
+      "Have unused laptops or computer equipment lying around? Donate them to our non-profit and help us empower marginalized communities through technology. Your donated hardware will be refurbished and provided to individuals who lack access to essential digital resources. By giving your old devices a new purpose, you can directly contribute to reducing technology barriers and enabling educational opportunities. Together, let's bridge the digital divide and make a difference. Donate your hardware today.",
   },
   {
-    name: "Volunteer",
-    id: "tier-growth",
-    href: "#",
-    price: { monthly: "$60", annually: "$48" },
+    name: "Get Involved",
     description:
-      "Interested in utilizing your skills? Contact us .",
-    features: [
-      "Unlimited products",
-      "Unlimited subscribers",
-      "Advanced analytics",
-      "1-hour, dedicated support response time",
-      "Marketing automations",
-      "Custom reporting tools",
-    ],
+      "Looking to make a difference in the lives of marginalized communities through technology? Join our dedicated team and be a part of our mission to reduce technology barriers. Whether you have technical expertise, a passion for teaching, or a desire to contribute your skills, we welcome individuals like you to get involved. Together, we can create a more inclusive future by providing accessibility, education, and empathy to those who need it the most. Explore our volunteer opportunities and become a catalyst for change today.",
   },
 ];
 
 export const SupportUs = () => {
   return (
-    <div className="bg-white pt-16 pb-32">
+    <div className="pb-32 pt-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl sm:text-center">
-          {/* <h2 className="text-base font-semibold leading-7 text-indigo-600">Pricing</h2> */}
-          <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+          <p className="mt-2 text-4xl font-bold tracking-tight sm:text-5xl">
             Support Us
           </p>
         </div>
         <div className="mt-20 flow-root">
-          <div className="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-gray-100 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-x lg:divide-y-0 xl:-mx-4">
-            {type.map((tier) => (
-              <div key={tier.id} className="pt-16 lg:px-8 lg:pt-0 xl:px-14 ">
+          <div className="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-base-300  sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-x lg:divide-y-0 xl:-mx-4">
+            {type.map((tier, index) => (
+              <div key={index} className="pt-16 lg:px-8 lg:pt-0 xl:px-14 ">
                 <h3
-                  id={tier.id}
-                  className="text-base font-semibold leading-7 text-gray-900"
+                  id={index.toString()}
+                  className="text-base font-semibold leading-7"
                 >
                   {tier.name}
                 </h3>
@@ -72,9 +40,9 @@ export const SupportUs = () => {
                   {tier.description}
                 </p>
                 <a
-                  href={tier.href}
-                  aria-describedby={tier.id}
-                  className="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  href={"#"}
+                  aria-describedby={index.toString()}
+                  className="btn-primary btn-block btn mt-10 "
                 >
                   Donate
                 </a>
