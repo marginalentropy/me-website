@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { DonateButton } from "../DonateButton";
 
 // const navigation = [
 //   { name: "Product", href: "#" },
@@ -38,14 +39,14 @@ export const NavBar = () => {
             <li>
               <a>Classes</a>
             </li>
-            <li>
+            {/* <li>
               <a>Get Involved</a>
-            </li>
+            </li> */}
           </ul>
         </div>
 
         <div className="navbar-end">
-          <a className="btn-secondary btn">Donate</a>
+            <DonateButton />
         </div>
       </nav>
 
@@ -83,11 +84,11 @@ export const NavBar = () => {
             <li>
               <a>Classes</a>
             </li>
-            <li>
+            {/* <li>
               <a>Get Involved</a>
-            </li>
+            </li> */}
             <li></li>
-            <a className="btn-block btn mt-4">Donate</a>
+            <DonateButton />
           </ul>
         </Dialog.Panel>
       </Dialog>

@@ -51,7 +51,7 @@ export const CurrentOffers = () => {
                     {/* <span className="badge badge-lg ml-4 bg-base-200 border-base-300">New</span> */}
                   </h2>
 
-                  <time dateTime={post.datetime} className="text-gray-500">
+                  <time dateTime={post.datetime} className="">
                     {post.date}
                   </time>
 
