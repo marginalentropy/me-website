@@ -29,7 +29,7 @@ export const NavBar = () => {
           </label>
 
           <a href="#" className="btn-ghost btn normal-case">
-            <span className="sr-only">Your Company</span>
+            <span className="sr-only">Marginal Entropy</span>
             <img className="h-12 w-auto" src="/logo512.png" alt="" />
           </a>
         </div>
@@ -60,7 +60,7 @@ export const NavBar = () => {
           <ul className="menu menu-horizontal flex items-center gap-x-6">
             <li>
               <a href="#" className="">
-                <span className="sr-only">Your Company</span>
+                <span className="sr-only">Marginal Entropy</span>
                 <img
                   className="h-8 w-auto"
                   src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"

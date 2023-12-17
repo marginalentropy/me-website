@@ -1,6 +1,6 @@
-import jocelynn from "../../assets/Jocelynn.jpg";
-import allison from "../../assets/Ally.jpg";
-import emily from "../../assets/Emily.jpg";
+import jocelynn from "../../assets/employees/Jocelynn.jpg";
+import allison from "../../assets/employees/Ally.jpg";
+import emily from "../../assets/employees/Emily.jpg";
 import { LinkedIn } from "../../components/svg/LinkedIn";
 
 const people = [
