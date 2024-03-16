@@ -10,7 +10,7 @@ const review = {
 
 export const SinglePersonReview = () => {
   return (
-    <div className=" flex bg-base-100 p-8">
+    <div className=" flex bg-base-200 p-8">
       <div className="mx-auto flex max-w-7xl items-center">
         <div className="avatar">
           <div className="w-16 rounded-full">

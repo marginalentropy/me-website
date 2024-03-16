@@ -1,6 +1,6 @@
 export const CoreTenants = () => {
   return (
-    <div className="mx-auto grid max-w-7xl grid-cols-1 gap-4 bg-base-200 p-4 pt-16 md:grid-cols-3">
+    <div className="mx-auto grid max-w-7xl grid-cols-1 gap-4 p-4 pt-16 md:grid-cols-3">
       <div className="card mx-auto max-w-md md:max-w-xs">
         <div className="card-body items-center text-center">
           <svg

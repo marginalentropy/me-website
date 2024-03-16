@@ -1,6 +1,6 @@
-import { useState } from "react";
-import { Dialog } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+// import { useState } from "react";
+// import { Dialog } from "@headlessui/react";
+// import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { DonateButton } from "../DonateButton";
 
 // const navigation = [
@@ -11,7 +11,7 @@ import { DonateButton } from "../DonateButton";
 // ];
 
 export const NavBar = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  // const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <header>
@@ -20,13 +20,13 @@ export const NavBar = () => {
         aria-label="Global"
       >
         <div className="navbar-start">
-          <label
+          {/* <label
             tabIndex={0}
             className="btn-ghost btn md:hidden"
             onClick={() => setMobileMenuOpen(true)}
           >
             <Bars3Icon className="h-8 w-8" />
-          </label>
+          </label> */}
 
           <a href="#" className="btn-ghost btn normal-case">
             <span className="sr-only">Marginal Entropy</span>
@@ -36,9 +36,9 @@ export const NavBar = () => {
 
         <div className="navbar-center hidden md:flex">
           <ul className="menu menu-horizontal menu-lg p-0">
-            <li>
-              <a>Classes</a>
-            </li>
+            {/* <li>
+              <a className="btn btn-primary btn-outline">Classes</a>
+            </li> */}
             {/* <li>
               <a>Get Involved</a>
             </li> */}
@@ -50,7 +50,7 @@ export const NavBar = () => {
         </div>
       </nav>
 
-      <Dialog
+      {/* <Dialog
         as="div"
         className="md:hidden"
         open={mobileMenuOpen}
@@ -81,17 +81,17 @@ export const NavBar = () => {
           </ul>
 
           <ul className="menu rounded-box menu-lg">
-            <li>
+            <li className="outline-2">
               <a>Classes</a>
             </li>
-            {/* <li>
+            <li>
               <a>Get Involved</a>
-            </li> */}
+            </li>
             <li></li>
             <DonateButton />
           </ul>
         </Dialog.Panel>
-      </Dialog>
+      </Dialog> */}
     </header>
   );
 };
