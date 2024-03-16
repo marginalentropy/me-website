@@ -10,7 +10,7 @@ const review = {
 
 export const SinglePersonReview = () => {
   return (
-    <div className=" flex bg-base-200 p-8">
+    <div className=" flex bg-neutral p-8">
       <div className="mx-auto flex max-w-7xl items-center">
         <div className="avatar">
           <div className="w-16 rounded-full">
@@ -21,12 +21,12 @@ export const SinglePersonReview = () => {
         </div>
         <div className="flex-col px-4">
           <div className="">
-            <h4 className="text-sm font-bold text-base-content">
+            <h4 className="text-sm font-bold text-neutral-content">
               {review.author}
             </h4>
           </div>
           <div
-            className="text-base italic text-base-content "
+            className="italic text-neutral-content"
             dangerouslySetInnerHTML={{ __html: review.content }}
           />
         </div>
