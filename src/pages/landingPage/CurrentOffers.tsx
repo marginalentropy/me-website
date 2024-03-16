@@ -3,21 +3,23 @@ const posts = [
     id: 1,
     title: "Minecraft Coding",
     description:
-      "Use Minecraft education edition to teach programming using code blocks and python. For kids and teenagers.",
+      "Use Minecraft education edition to teach programming using code blocks and python. For kids and beginners with no experience with coding.",
     imageUrl:
       "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
-    date: "April 6th - June 29th, 2023",
-    datetime: "2020-03-16",
+    date: "May 2nd - June 6th, 2024",
+    datetime: "2024-05-02",
+    location: "Fort Wayne, Indiana"
   },
   {
     id: 2,
-    title: "Robotics",
+    title: "Intro to coding",
     description:
-      "Hands on learning with robots. Assemble and program the robots. For kids and teenagers.",
+      "Learn how to code in a real environment. For kids and teen who are familiar with technology.",
     imageUrl:
       "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
-    date: "Mar 16, 2020",
-    datetime: "2020-03-16",
+    date: "May 2nd - June 6th, 2024",
+    datetime: "2024-05-02",
+    location: "Fort Wayne, Indiana"
   },
 ];
 
@@ -55,6 +57,7 @@ export const CurrentOffers = () => {
                     {post.date}
                   </time>
 
+                  <p>{post.location}</p>
                   <p>{post.description}</p>
 
                   <div className="card-actions justify-end">
