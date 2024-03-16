@@ -1,0 +1,23 @@
+<!-- <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="640" height="480" viewBox="0 0 640 480" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 401.23 262)" style="" 
+            className="fill-current" >
+		<text xml:space="preserve" font-family="'Lucida Console', Monaco, monospace" font-size="18" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: currentColor; fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-375.73" y="157.07" style="font-size: 500px; font-weight: bold; ">ME</tspan></text>
+</g>
+</svg> -->
+<svg version="1.1"
+     width="20"
+     height="20"
+     xmlns="http://www.w3.org/2000/svg"
+     fill="current">
+    <text x="0"
+          y="15"
+          font-family="'Lucida Console', Monaco, monospace"
+          font-weight="bold">        
+        ME
+    </text>
+</svg>

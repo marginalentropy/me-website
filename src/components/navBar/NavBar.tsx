@@ -30,7 +30,7 @@ export const NavBar = () => {
 
           <a href="#" className="btn-ghost btn normal-case">
             <span className="sr-only">Marginal Entropy</span>
-            <img className="h-12 w-auto" src="/logo512.png" alt="" />
+            <img className="h-12 w-auto fill-red-300 text-blue-400" src="/logo.svg" alt="" />
           </a>
         </div>
 
